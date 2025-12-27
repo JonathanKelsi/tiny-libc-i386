@@ -6,8 +6,6 @@ A tiny libc-style implementation for **Linux i386**, designed for
 This project avoids glibc entirely and provides a minimal set of
 syscall wrappers, string utilities, and a custom `_start` entrypoint.
 
----
-
 ## Features
 
 - Linux **i386** syscalls via `int 0x80`
@@ -23,8 +21,6 @@ syscall wrappers, string utilities, and a custom `_start` entrypoint.
 - Simple `popen` helper for shell execution
 - Designed to be compiled with `-nostdlib`
 
----
-
 ## Non-goals
 
 This is **not** a full libc implementation.
@@ -38,8 +34,6 @@ No support for:
 - POSIX compliance
 
 If you need those — use glibc or musl.
-
----
 
 ## Usage
 
