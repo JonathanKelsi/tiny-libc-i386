@@ -1,4 +1,4 @@
-# mini-libc-ctf
+# tiny-libc-i386
 
 A tiny libc-style implementation for **Linux i386**, designed for CTF challenges.
 
