@@ -1,7 +1,6 @@
 # mini-libc-ctf
 
-A tiny libc-style implementation for **Linux i386**, designed for
-**CTF challenges, exploit development, and educational purposes**.
+A tiny libc-style implementation for **Linux i386**, designed for CTF challenges.
 
 This project avoids glibc entirely and provides a minimal set of
 syscall wrappers, string utilities, and a custom `_start` entrypoint.
@@ -22,8 +21,6 @@ syscall wrappers, string utilities, and a custom `_start` entrypoint.
 - Designed to be compiled with `-nostdlib`
 
 ## Non-goals
-
-This is **not** a full libc implementation.
 
 No support for:
 - `errno`
